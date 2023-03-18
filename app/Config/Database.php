@@ -26,9 +26,9 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost:8888/phpMyAdmin5/',
+        'hostname' => 'localhost',
         'username' => 'root',
-        'password' => 'root',
+        'password' => '',
         'database' => 'hr_buma',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
