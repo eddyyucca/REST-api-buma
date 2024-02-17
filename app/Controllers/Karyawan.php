@@ -9,7 +9,7 @@ use App\Models\Karyawan_m;
 class Karyawan extends ResourceController
 {
     use ResponseTrait;
-    // get all product
+    // get all karyawan
     public function index()
     {
         $model = new Karyawan_m();
@@ -17,7 +17,7 @@ class Karyawan extends ResourceController
         return $this->respond($data, 200);
     }
 
-    // get single product
+    // get single karyawan
     public function show($id = null)
     {
         $model = new Karyawan_m();
